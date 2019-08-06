@@ -1,0 +1,16 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:liuhui666/webpackDemo.git",
+  "author": "hui.liu <hui.liu@bianlifeng.com>",
+  "license": "MIT",
+  "scripts":{
+    "build":"webpack --config webpack.config.js",
+    "dev":"webpack-dev-server"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
